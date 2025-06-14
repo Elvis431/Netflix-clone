@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* Maindive */
+
+.maindive {
+    height: 700px;
+    background-image: url(netflixteaser.png);
+    background-size: cover;
+}
+
+header {
+    height: 92px   ;
+}
+.header1 {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45px;
+    display: flex;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.language {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.sign1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+}
+
+.lang1 {
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.sign1{
+    display:flex;
+    height: 32px;
+    width: 87px;
+    background-color: rgba(212, 7, 7, 1);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.selects {
+    height: 30px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+}
+
+/* main content */
+
+.content {
+    height: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}
+
+.Restart {
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+    width: 300px;
+    font-weight: 700;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+}
+
+/* tv section */
+
+.tv-section {
+    border-top: 8px solid rgba(148, 140, 140, 0.3) ;
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-content {
+    margin: 4px;
+    font-size: 1.5rem;
+}
+.tv-content h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.tv-image {
+    height: 400px;
+    width: 600px;
+    background-image: url(tv.png);
+    background-image: contain;
+    
+}
+
+.tvbox-image {
+    margin-top: 102px;
+    margin-left: 86px;
+    display: flex;
+    height: 260px;
+    width: 465px;
+    background-image: url(maxresdefault.jpg);
+    background-image: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Mobile section */
+
+.mobile-section {
+    height: 500px;
+    border-top: 5px solid rgba(109, 106, 106, 0.3);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mobile-images {
+    display: flex;
+    width: 50%;
+    background-image: url(Mobile.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+   
+    
+}
+
+.imagebox {
+    height: 100px;
+    width: 350px;
+    display: flex;
+    background-color: black;
+    margin-left: 145px;
+    margin-top: 350px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.boximage {
+    height: 100px;
+    width: 30%;
+    background-image: url(boxshot.png);
+    background-image: cover;
+   
+}
+
+.boxtext {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+
+.boxtext p{
+    color: blue;
+}
+
+.mobile-text {
+   color: white;
+   font-size: 1.5rem;
+    
+}
+.mobile-text h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* anywhere section */
+
+.anywhere-section {
+    border-top: 8px solid rgba(148, 140, 140, 0.3) ;
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 4px solid grey; */
+}
+
+.any-content {
+    margin: 4px;
+    font-size: 1.5rem;
+}
+.any-content h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.tv-image1 {
+    height: 400px;
+    width: 600px;
+    background-image: url(device-pile-in.png);
+    background-image: cover;
+    
+}
+
+/* .tvbox-image1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    height: 260px;
+    width: 500px;
+    background-image: url(wednesday-addams-dance-dog-wednessday-netflix-series.gif);
+    background-image: contain;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* kid section  */
+
+.kid-section {
+    display: flex;
+    height: 500px;
+    background-color: black;
+    border-top: 8px solid rgba(153, 149, 149, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+
+.kid-image{
+    display: flex;
+    background-image: url(Kidssection.png);
+    background-image: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 700px;
+    
+   
+   
+}
+
+.kid-profile {
+    color: white;
+    margin: 10px;
+    
+
+}
+
+.kid-profile h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    
+    
+
+}
+
+.kid-profile p {
+    font-size: 1.5rem;
+    
+}
+
+/* FAQ SECTION */
+
+.faq {
+    height: 850px;
+    background-color: black;
+    color: white;
+    border-top: 8px solid rgba(151, 148, 148, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.faqlist {
+    height: 40px;
+    width: 1200px;
+    background-color: rgba(151, 148, 148, 0.3);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 1em ;
+}
+
+.faq a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+/* foooter panel */
+
+.foot-panel {
+    height: 400px;
+    background-color: black;
+    border-top: 8px solid rgba(151, 148, 148, 0.3);
+    color:#ffffffb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+ul a{
+    
+    color:#ffffffb3;
+    display: block;
+    margin: 20px;
+}
+
+#india {
+    text-decoration: none;
+    
+}
